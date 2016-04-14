@@ -1,6 +1,9 @@
 /*@font-face {
   font-family: Dunste;
   src: url('./fonts/wg_dunste.ttf'); }*/
+p {
+  font-size: 17px;
+}
 body {
   display: flex;
   min-height: 100vh;

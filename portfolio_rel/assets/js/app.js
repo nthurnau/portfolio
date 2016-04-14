@@ -26,11 +26,13 @@ $(document).ready(function () {
         $('#wrapper').toggleClass('toggled');
   });
 
-  // Initialize collapse button
+// Initialize collapse button
 $(".button-collapse").sideNav();
-// Initialize collapsible (uncomment the line below if you use the dropdown variation)
-//$('.collapsible').collapsible();
+
 //initialize the photo slider
  $('.slider').slider({full_width: true});
+
+//initialize parallax
+$('.parallax').parallax();
 
 });
